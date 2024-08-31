@@ -56,7 +56,6 @@ li a{
 }
 .left-cmc-image{ /*animacao1*/
     width: 35vw;
-
 }
 
 .rigth-cmc{
@@ -72,7 +71,7 @@ li a{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #3E80C4;
+    background: #3E80C4;   
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
