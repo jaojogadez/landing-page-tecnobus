@@ -1,6 +1,4 @@
-:root{
-    --blue: #3E80C4;
-}
+:root{  --blue: #3E80C4; }
 
 html, body{ background-color: var(--blue);}
 
@@ -9,4 +7,12 @@ html, body{ background-color: var(--blue);}
     text-align: justify;
 }
 
-.card p{ max-width: 455px;}
+.card h2{ max-width: 455px;}
+
+img{max-width: 500px;}
+
+@media screen and (min-width: 992px) {
+    #content-box{
+        flex-flow: row nowrap !important;
+    }
+}
