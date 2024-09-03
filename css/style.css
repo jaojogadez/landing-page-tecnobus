@@ -3,3 +3,10 @@
 }
 
 html, body{ background-color: var(--blue);}
+
+.card{
+    max-width: 500px;
+    text-align: justify;
+}
+
+.card p{ max-width: 455px;}
