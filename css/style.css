@@ -1,18 +1,28 @@
-:root{  --blue: #3E80C4; }
+:root{  --primary-blue: #3E80C4;  --main-font: "Quicksand", sans-serif; --secondary-blue: #00FFFF}
 
-html, body{ background-color: var(--blue);}
+html, body{background-color: var(--primary-blue);}
 
-.card{
-    max-width: 500px;
+section{
+    font-family: var(--main-font);
     text-align: justify;
 }
 
+.card{
+    max-width: 500px;
+    background-color: var(--primary-blue);
+}
+
 .card h2{ max-width: 455px;}
+
+span{color: var(--secondary-blue);}
 
 img{max-width: 500px;}
 
 @media screen and (min-width: 992px) {
     #content-box{
         flex-flow: row nowrap !important;
+    }
+    #column-box{
+        margin: 0 2rem;
     }
 }
