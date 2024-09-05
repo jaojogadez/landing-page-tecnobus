@@ -5,11 +5,15 @@ html, body{background-color: var(--primary-blue);}
 section{
     font-family: var(--main-font);
     text-align: justify;
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
 }
 
 .card{
     max-width: 500px;
     background-color: var(--primary-blue);
+    transition: width .5s, heigth .5s !important;
+    transition-timing-function: ease !important;
 }
 
 .card h2{ max-width: 455px;}
