@@ -29,4 +29,7 @@ img{max-width: 500px;}
     #column-box{
         margin: 0 2rem;
     }
+    .content-box-reverse{
+        flex-flow: row-reverse nowrap !important;
+    }
 }
