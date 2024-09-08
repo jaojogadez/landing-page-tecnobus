@@ -3,7 +3,7 @@
 Olá, está página foi desenvolvida durante um projeto entre as séries do Ensino Médio da Fundação Bradesco. A idéia era vender um produto que solucionaria um problema da população com tecnologia.
 
 ## Live Server
-<a href="https://jaojogadez.github.io/landing-page-tecnobus/">Acesse Aqui</a>
+<a href="https://jaojogadez.github.io/landing-page-tecnobus/tecnobus.html">Acesse Aqui</a>
  
 
 ### Mais Informações
